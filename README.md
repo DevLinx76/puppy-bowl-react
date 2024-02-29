@@ -60,3 +60,4 @@ This application is deployed on Netlify. Ensure you follow the correct build pro
 ## Contributing
 
 Contributions are welcome! If you have suggestions or want to contribute to the project, please feel free to make a pull request or open an issue.
+
