@@ -2,7 +2,7 @@
 
 ## Overview
 
-This React application serves as an interactive platform for the Puppy Bowl event, allowing users to view participating players, their details, and manage player information through a dedicated API.
+This React application serves as an interactive platform for the Puppy Bowl event, allowing users to view participating players, and their details, and manage player information through a dedicated API.
 
 ## Getting Started
 
