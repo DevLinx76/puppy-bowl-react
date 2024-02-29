@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
+        <a href="https://fsa-puppy-bowl.herokuapp.com/api/2302-ACC-CT-WEB-PT-B/players" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
