@@ -48,7 +48,7 @@ puppy-bowl-react/
 │   │   └── SinglePlayer.jsx
 │   └── main.jsx
 └── index.css
-
+```
 
 ## Routing
 
