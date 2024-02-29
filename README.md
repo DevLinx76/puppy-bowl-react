@@ -35,17 +35,18 @@ This project interacts with the "Puppy Bowl" API, which provides data on players
 
 ## Project Structure
 
+```plaintext
 puppy-bowl-react/
 ├── src/
-│ ├── App.jsx
-│ ├── API/
-│ │ └── index.js
-│ ├── components/
-│ │ ├── AllPlayers.jsx
-│ │ ├── NavBar.jsx (Optional)
-│ │ ├── NewPlayerForm.jsx
-│ │ └── SinglePlayer.jsx
-│ └── main.jsx
+│   ├── App.jsx
+│   ├── API/
+│   │   └── index.js
+│   ├── components/
+│   │   ├── AllPlayers.jsx
+│   │   ├── NavBar.jsx (Optional)
+│   │   ├── NewPlayerForm.jsx
+│   │   └── SinglePlayer.jsx
+│   └── main.jsx
 └── index.css
 
 
