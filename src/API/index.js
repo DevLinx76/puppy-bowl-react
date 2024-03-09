@@ -1,7 +1,7 @@
 // src/API/index.js
 
 // Define the API_URL constant and export the fetchPlayers and fetchPlayer functions.
-const API_URL = 'https://fsa-puppy-bowl.herokuapp.com/api/2302-ACC-CT-WEB-PT-B/players';
+const API_URL = 'https://fsa-puppy-bowl.herokuapp.com/api/2308-acc-pt-web-pt-a/players';
 
 // Fetch all players from the API.
 export const fetchAllPlayer = async () => {
@@ -10,8 +10,8 @@ export const fetchAllPlayer = async () => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }  
-    const result = await response.json();
-    return result;
+    const { data } = await response.json();
+    return data.players;
   } catch (error) {
     console.error('Error fetching player', error);
   }
@@ -90,7 +90,7 @@ export const deletePlayer = async (id) => {
 // Fetch Teams from the API.
 export const fetchTeams = async () => {
   try {
-    const response = await fetch('https://fsa-puppy-bowl.herokuapp.com/api/2302-ACC-CT-WEB-PT-B/teams');
+    const response = await fetch('https://fsa-puppy-bowl.herokuapp.com/api/2308-acc-pt-web-pt-a/teams');
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }  
