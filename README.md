@@ -10,16 +10,21 @@ This section guides you through getting the Puppy Bowl React application up and 
 
 ### Prerequisites
 
-Before you begin, ensure you have the following installed:
-- [Node.js](https://nodejs.org/): A JavaScript runtime environment that's required to run the React application.
-- A code editor like [VS Code](https://code.visualstudio.com/) for editing your project files.
+Ensure you have the following installed before you proceed:
+- Node.js (version 14.0 or higher recommended)
+- npm (version 6.0 or higher)
 
 
 ### Installation
 
-1. **Clone the repository:** `git clone <repository-url>` and `cd puppy-bowl-react`
-2. **Install dependencies:** `npm install`
-3. **Start the development server:** `npm run dev` The application should now be running on `http://localhost:3000`.
+Follow these steps to set up the project locally:
+
+1. Clone the repository:
+2. Navigate to the project directory:
+3. Install dependencies:
+4. Start the development server:
+5. Open `http://localhost:3000` in your browser to view the application.
+
 
 ### API Usage
 
@@ -27,11 +32,13 @@ This project interacts with the "Puppy Bowl" API, which provides data on players
 
 ## Features
 
-- **Player Listing:** View all players participating in the Puppy Bowl.
-- **Player Details:** Access detailed information about each player by navigating to their specific page.
-- **New Player Registration:** Utilize a form to add new players to the Puppy Bowl lineup.
-- **Player Search:** Filter through the player list based on names.
-- **Player Management:** Option to delete players (restrictions apply).
+The application includes the following features:
+- **List of Players**: Displays all puppies participating in the bowl.
+- **Player Details**: Offers detailed information about each puppy on click.
+- **Create Player**: Allows the addition of a new puppy to the competition.
+- **Delete Player**: Enables the removal of a puppy (restrictions may apply).
+- **Search**: Facilitates searching for players by name.
+
 
 ## Project Structure
 
@@ -57,6 +64,13 @@ Implemented with React Router, the application includes routes to list all playe
 ## Deployment
 
 This application is deployed on Netlify. Ensure you follow the correct build process with `npm run build` before deploying. For detailed deployment instructions, refer to the [DEPLOYMENT GUIDE](<deployment-guide-link>).
+
+## Built With
+
+- [React](https://reactjs.org/) - The web framework used.
+- [Vite](https://vitejs.dev/) - Employed as the build tool for enhanced development experience.
+- [React Router](https://reactrouter.com/) - Used for routing within the application.
+- [Tailwind CSS](https://tailwindcss.com/) - Utilized for styling the application.
 
 ## Contributing
 
